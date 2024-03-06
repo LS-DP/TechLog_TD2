@@ -1,6 +1,7 @@
 from pizza import Pizza
+from carte_pizzeria_exception import CartePizzeriaException
 
-class CartePizzeria:
+class CartePizzeria(Pizza):
   def __init__(self):
     self.pizzas = []
     
